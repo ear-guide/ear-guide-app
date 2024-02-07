@@ -1,0 +1,21 @@
+<app-layout (click)="null" (swipe)="null">
+  <div (swipeup)   ="onSwipeUp()"
+       (swipedown) ="onSwipeDown()"
+       (swipeleft) ="onSwipeLeft()"
+       (swiperight)="onSwipeRight()"
+       (tap)       ="onDoubleTap($event)">
+    <ng-container *ngFor="let element of guide; index as i">
+      <div [ngSwitch]="element.tag" [id]="i" (tap)="onTap($event, i)"
+           [ngClass]="{ 'outline-dashed': isAvailable() && (i === index.value) }"
+           class="cursor-pointer outline-2 outline-offset-2 scroll-mt-2 mb-3">
+        <p  *ngSwitchCase="'p'"  class="text-base">                            {{ element.text }}</p>
+        <h1 *ngSwitchCase="'h1'" class="font-bold" [ngClass]="textSizes['h1']">{{ element.text }}</h1>
+        <h2 *ngSwitchCase="'h2'" class="font-bold" [ngClass]="textSizes['h2']">{{ element.text }}</h2>
+        <h3 *ngSwitchCase="'h3'" class="font-bold" [ngClass]="textSizes['h3']">{{ element.text }}</h3>
+        <h4 *ngSwitchCase="'h4'" class="font-bold" [ngClass]="textSizes['h4']">{{ element.text }}</h4>
+        <h5 *ngSwitchCase="'h5'" class="font-bold" [ngClass]="textSizes['h5']">{{ element.text }}</h5>
+        <h6 *ngSwitchCase="'h6'" class="font-bold" [ngClass]="textSizes['h6']">{{ element.text }}</h6>
+      </div>
+    </ng-container>
+  </div>
+</app-layout>

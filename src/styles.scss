@@ -1,0 +1,19 @@
+/* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .bg-dark {
+    @apply bg-neutral-900;
+  }
+  .text-dark {
+    @apply text-neutral-300;
+  }
+  .border-dark {
+    @apply border-neutral-300;
+  }
+  .outline-dark {
+    @apply outline-neutral-300;
+  }
+}

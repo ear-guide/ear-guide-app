@@ -1,0 +1,48 @@
+<app-layout>
+  <h1 class="text-4xl font-bold text-center mb-4">
+    Einstellungen
+  </h1>
+  <hr class="mb-2">
+  <table>
+    <tbody>
+      <tr>
+        <td>
+          <button (tap)="setRate(Rate.FAST)"
+                  class="rounded outline-1 p-2 my-1 me-2"
+                  [ngClass]="{ 'outline': isRate(Rate.FAST) }">
+            <app-fast-icon [width]="'w-6'" [height]="'h-6'"/>
+          </button>
+        </td>
+        <td>
+          <button (tap)="setRate(Rate.SLOW)"
+                  class="rounded outline-1 p-2 my-1 me-2"
+                  [ngClass]="{ 'outline': isRate(Rate.SLOW) }">
+            <app-slow-icon [width]="'w-6'" [height]="'h-6'"/>
+          </button>
+        </td>
+        <td class="text-lg">
+          Sprachgeschwindigkeit
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <button (tap)="setTheme(Theme.LIGHT)"
+                  class="rounded outline-1 p-2 my-1 me-2"
+                  [ngClass]="{ 'outline': isTheme(Theme.LIGHT) | async }">
+            <app-light-theme-icon [width]="'w-6'" [height]="'h-6'"/>
+          </button>
+        </td>
+        <td>
+          <button (tap)="setTheme(Theme.DARK)"
+                  class="rounded outline-1 p-2 my-1 me-2"
+                  [ngClass]="{ 'outline': isTheme(Theme.DARK) | async }">
+            <app-dark-theme-icon [width]="'w-6'" [height]="'h-6'"/>
+          </button>
+        </td>
+        <td class="text-lg">
+          Farbschema
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</app-layout>

@@ -1,0 +1,44 @@
+<div #info>
+  <app-info [hidden]="hidden"
+            [maxWidth]="maxWidth"
+            [insetX]="'inset-x-2'"
+            [bottom]="'bottom-24'"
+  />
+</div>
+<footer class="fixed mx-auto flex justify-around bg-black text-white py-4"
+        #menu [ngClass]="[maxWidth, insetX, bottom]">
+  <a [routerLink]="'/settings'"
+     aria-hidden="true">
+    <app-settings-icon
+      [width]="'w-14'"
+      [height]="'h-14'"/>
+  </a>
+  <a [routerLink]="'/scanner'"
+     aria-label="QR-Code Scanner">
+    <app-qr-icon
+      [width]="'w-14'"
+      [height]="'h-14'"/>
+  </a>
+  <button (click)="toggleAudio()"
+          aria-hidden="true">
+    <app-audio-on-icon
+      *ngIf="audioEnabled() | async"
+      [width]="'w-14'"
+      [height]="'h-14'"/>
+    <app-audio-off-icon
+      *ngIf="audioDisabled() | async"
+      [width]="'w-14'"
+      [height]="'h-14'"/>
+  </button>
+  <button (click)="toggleHidden()"
+          aria-hidden="true">
+    <app-info-icon
+      [hidden]="!hidden"
+      [width]="'w-14'"
+      [height]="'h-14'"/>
+    <app-cross-icon
+      [hidden]="hidden"
+      [width]="'w-14'"
+      [height]="'h-14'"/>
+  </button>
+</footer>

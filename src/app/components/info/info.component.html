@@ -1,0 +1,159 @@
+<div id="info" class="fixed mx-auto bg-white dark:bg-dark border border-2 border-black dark:border-dark shadow-xl p-2"
+     [ngClass]="[maxWidth, insetX, bottom]">
+  <ul>
+    <li>
+      <table>
+        <tbody>
+        <tr>
+          <td>
+            <app-single-click-icon [width]="'w-6'" [height]="'h-6'"/>
+          </td>
+          <td>
+            <span class="font-bold">Klicken</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="font-bold">
+            1x
+          </td>
+          <td>
+            Zu beliebigem Text wechseln
+          </td>
+        </tr>
+        <tr>
+          <td class="font-bold">
+            2x
+          </td>
+          <td>
+            Vorlesen pausieren bzw. fortsetzen
+          </td>
+        </tr>
+        </tbody>
+      </table>
+    </li>
+    <hr>
+    <li>
+      <table>
+        <tbody>
+        <tr>
+          <td>
+            <app-arrow-left-icon [width]="'w-6'" [height]="'h-6'"/>
+          </td>
+          <td>
+            <span class="font-bold">Nach links wischen</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="font-bold">
+            1x
+          </td>
+          <td>
+            {{ textSingleSwipeLeft }}
+          </td>
+        </tr>
+        <tr>
+          <td class="font-bold">
+            2x
+          </td>
+          <td>
+            {{ textDoubleSwipeLeft }}
+          </td>
+        </tr>
+        </tbody>
+      </table>
+    </li>
+    <hr>
+    <li>
+      <table>
+        <tbody>
+        <tr>
+          <td>
+            <app-arrow-right-icon [width]="'w-6'" [height]="'h-6'"/>
+          </td>
+          <td>
+            <span class="font-bold">Nach rechts wischen</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="font-bold">
+            1x
+          </td>
+          <td>
+            {{ textSingleSwipeRight }}
+          </td>
+        </tr>
+        <tr>
+          <td class="font-bold">
+            2x
+          </td>
+          <td>
+            {{ textDoubleSwipeRight }}
+          </td>
+        </tr>
+        </tbody>
+      </table>
+    </li>
+    <hr>
+    <li>
+      <table>
+        <tbody>
+        <tr>
+          <td>
+            <app-arrow-up-icon [width]="'w-6'" [height]="'h-6'"/>
+          </td>
+          <td>
+            <span class="font-bold">Nach oben wischen</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="font-bold">
+            1x
+          </td>
+          <td>
+            {{ textSingleSwipeUp }}
+          </td>
+        </tr>
+        <tr>
+          <td class="font-bold">
+            2x
+          </td>
+          <td>
+            {{ textDoubleSwipeUp }}
+          </td>
+        </tr>
+        </tbody>
+      </table>
+    </li>
+    <hr>
+    <li>
+      <table>
+        <tbody>
+          <tr>
+            <td>
+              <app-arrow-down-icon [width]="'w-6'" [height]="'h-6'"/>
+            </td>
+            <td>
+              <span class="font-bold">Nach unten wischen</span>
+            </td>
+          </tr>
+          <tr>
+            <td class="font-bold">
+              1x
+            </td>
+            <td>
+              {{ textSingleSwipeDown }}
+            </td>
+          </tr>
+          <tr>
+            <td class="font-bold">
+              2x
+            </td>
+            <td>
+              {{ textDoubleSwipeDown }}
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </li>
+  </ul>
+</div>
