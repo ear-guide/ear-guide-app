@@ -5,7 +5,7 @@ import swipeBehavior from '../behaviors/SwipeBehavior';
 
 const isProd = true;
 
-const prodContext = '/accessible-audio-guide';
+const prodContext = '/ear-guide';
 const devContext = '';
 
 const variant = 'V1';

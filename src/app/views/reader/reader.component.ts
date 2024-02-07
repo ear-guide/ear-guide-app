@@ -1,3 +1,6 @@
+// Copyright (c) 2024 FHNW University of Applied Sciences and Arts Northwestern Switzerland
+// See LICENSE
+
 import { Component, OnInit, OnDestroy } from '@angular/core';
 import { ActivatedRoute } from "@angular/router";
 import { SpeechService } from "../../services/speech.service";

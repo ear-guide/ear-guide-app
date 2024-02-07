@@ -1,3 +1,6 @@
+// Copyright (c) 2024 FHNW University of Applied Sciences and Arts Northwestern Switzerland
+// See LICENSE
+
 import { AfterViewInit, Component, ElementRef, OnDestroy, ViewChild } from '@angular/core';
 import { ScannerService } from "../../services/scanner.service";
 import { config } from "../../configurations/config";
