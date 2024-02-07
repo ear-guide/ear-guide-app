@@ -1,3 +1,6 @@
+// Copyright (c) 2024 FHNW University of Applied Sciences and Arts Northwestern Switzerland
+// See LICENSE
+
 import { ErrorHandler, Injectable } from "@angular/core";
 import { Router } from "@angular/router";
 import { config } from "../configurations/config";

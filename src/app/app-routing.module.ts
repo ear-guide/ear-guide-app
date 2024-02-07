@@ -1,3 +1,6 @@
+// Copyright (c) 2024 FHNW University of Applied Sciences and Arts Northwestern Switzerland
+// See LICENSE
+
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { QrScannerComponent } from "./views/qr-scanner/qr-scanner.component";

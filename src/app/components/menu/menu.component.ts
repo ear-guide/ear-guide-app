@@ -1,3 +1,6 @@
+// Copyright (c) 2024 FHNW University of Applied Sciences and Arts Northwestern Switzerland
+// See LICENSE
+
 import { Component, ElementRef, HostListener, Input, ViewChild } from '@angular/core';
 import { AudioService } from "../../services/audio.service";
 import { BehaviorSubject, map } from "rxjs";

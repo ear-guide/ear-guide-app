@@ -1,4 +1,4 @@
-# Accessible Audio Guide
+# Ear Guide App
 
 ## Requirements
 

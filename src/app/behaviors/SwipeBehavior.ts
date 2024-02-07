@@ -1,3 +1,6 @@
+// Copyright (c) 2024 FHNW University of Applied Sciences and Arts Northwestern Switzerland
+// See LICENSE
+
 import { ISwipeBehavior } from "./ISwipeBehavior";
 import { GoToNextElement } from "./commands/GoToNextElement";
 import { GoToNextSameLevelElement } from "./commands/GoToNextSameLevelElement";
