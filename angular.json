@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "accessible-audio-guide": {
+    "ear-guide": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/accessible-audio-guide",
+            "outputPath": "dist/ear-guide",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -68,10 +68,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "accessible-audio-guide:build:production"
+              "browserTarget": "ear-guide:build:production"
             },
             "development": {
-              "browserTarget": "accessible-audio-guide:build:development"
+              "browserTarget": "ear-guide:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -79,7 +79,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "accessible-audio-guide:build"
+            "browserTarget": "ear-guide:build"
           }
         },
         "test": {
@@ -107,5 +107,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": false
   }
 }
