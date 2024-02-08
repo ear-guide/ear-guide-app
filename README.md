@@ -29,7 +29,7 @@ Description of work B
 ...
 ```
 
-Then adapt the URL https://www.ear.guide/reader?url=https://example.com/museum.md and create a [QR code](https://ddg.co/?q=qr+https://www.ear.guide/reader?url=https://example.com/museum.md).
+Then adapt the URL https://www.ear.guide/reader?url=https://example.com/museum.md and [create a QR code](https://ddg.co/?q=qr+https://www.ear.guide/reader?url=https://example.com/museum.md).
 
 ## Build the PWA
 To build the PWA from source code, using [Node.js](https://nodejs.org) and [npm](https://npmjs.com).
