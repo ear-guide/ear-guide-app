@@ -6,6 +6,21 @@ A simple audio guide.
 - https://www.ear.guide/reader?url=https://www.ear.guide/assets/example.md (example [content](https://www.ear.guide/assets/example.md))
 - https://www.ear.guide/reader?url=https://raw.githubusercontent.com/tamberg/guide/main/README.md (3rd party example [content](https://raw.githubusercontent.com/tamberg/guide/main/README.md))
 
+## Add
+To add a guide, publish a file _museum.md_ with this structure:
+
+```md
+# Museum
+## Room 1
+### Work A
+Description of work A
+### Work B
+Description of work B
+## Room 2
+...
+```
+Then open the URL https://www.ear.guide/reader?url=https://example.com/museum.md or create a [QR code](https://ddg.co/?q=qr+https://www.ear.guide/reader?url=https://example.com/museum.md).
+
 ## Build
 Requires [Node.js](https://nodejs.org) and [npm](https://npmjs.com).
 ```console
