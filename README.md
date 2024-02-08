@@ -12,6 +12,6 @@ Requires [Node.js](https://nodejs.org) and [npm](https://npmjs.com)
 - `npm start`
 
 ## Deploy
-Requires a static Web server directory, e.g. `../www`
+Requires a static Web server
 - `npm run build`
 - `cp dist/ear-guide ../www`
