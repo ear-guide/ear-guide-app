@@ -7,14 +7,14 @@ A simple audio guide.
 - https://www.ear.guide/reader?url=https://raw.githubusercontent.com/tamberg/guide/main/README.md (3rd party example [content](https://raw.githubusercontent.com/tamberg/guide/main/README.md))
 
 ## Build
-Requires [Node.js](https://nodejs.org) and [npm](https://npmjs.com)
+Requires [Node.js](https://nodejs.org) and [npm](https://npmjs.com).
 ```console
 $ npm install
 $ npm start
 ```
 
 ## Deploy
-Requires a static Web server
+Requires a static Web server.
 ```console
 $ npm run build
 $ cp dist/ear-guide ../www
