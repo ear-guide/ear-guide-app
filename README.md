@@ -17,5 +17,5 @@ $ npm start
 Requires a static Web server.
 ```console
 $ npm run build
-$ cp dist/ear-guide ../www
+$ cp -r dist/ear-guide/* ../www
 ```
