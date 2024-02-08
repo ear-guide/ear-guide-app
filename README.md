@@ -8,10 +8,14 @@ A simple audio guide.
 
 ## Build
 Requires [Node.js](https://nodejs.org) and [npm](https://npmjs.com)
-- `npm install`
-- `npm start`
+```console
+$ npm install
+$ npm start
+```
 
 ## Deploy
 Requires a static Web server
-- `npm run build`
-- `cp dist/ear-guide ../www`
+```console
+$ npm run build
+$ cp dist/ear-guide ../www
+```
