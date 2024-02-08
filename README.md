@@ -30,14 +30,14 @@ Description of work B
 Then open the URL https://www.ear.guide/reader?url=https://example.com/museum.md or create a [QR code](https://ddg.co/?q=qr+https://www.ear.guide/reader?url=https://example.com/museum.md).
 
 ## Build the PWA
-Requires [Node.js](https://nodejs.org) and [npm](https://npmjs.com).
+To build the PWA from source code, using [Node.js](https://nodejs.org) and [npm](https://npmjs.com).
 ```console
 $ npm install
 $ npm start
 ```
 
 ## Deploy the PWA
-Requires a static Web server.
+To host the PWA on your domain, requires a publicly accessible, static Web server.
 ```console
 $ npm run build
 $ cp -r dist/ear-guide/* ../www
