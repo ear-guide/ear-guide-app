@@ -1,11 +1,17 @@
 # Ear Guide App
+A simple audio guide.
 
-## Requirements
+## Try
+- https://www.ear.guide/ (PWA)
+- https://www.ear.guide/reader?url=https://www.ear.guide/assets/example.md (example content)
+- https://www.ear.guide/reader?url=https://raw.githubusercontent.com/tamberg/guide/main/README.md (3rd party example content)
 
-- Node.js: https://nodejs.org
-- npm: https://npmjs.com
+## Build
+Requires [Node.js](https://nodejs.org) and [npm](https://npmjs.com)
+- `npm install`
+- `npm start`
 
-## Running Application
-
-1. Install dependencies: `npm install`
-2. Start application: `npm start`
+## Deploy
+Requires a static Web server directory, e.g. `../www`
+- `npm run build`
+- `cp dist/ear-guide ../www`
