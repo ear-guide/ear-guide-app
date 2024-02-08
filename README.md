@@ -9,7 +9,7 @@ To get the app, scan the QR code below.
 It points to https://www.ear.guide/ (our generic [PWA](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps)).
 
 ## Visit a museum
-Using the app, scan the QR code below.
+TO visit a museum, using the app, scan the QR code below.
 
 ![ear guide 3rdparty](https://github.com/ear-guide/ear-guide-app/assets/142092/c22d99ac-ca2d-4cc5-b8bb-ce378abcc2e3)
 
