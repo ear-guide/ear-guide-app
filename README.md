@@ -2,7 +2,7 @@
 A simple audio guide.
 
 ## Get the PWA
-To get the app, type ear.guide in your browser, or scan the QR code below:
+To get the app, type _ear.guide_ in your browser, or scan the QR code below:
 
 ![ear guide](https://github.com/ear-guide/ear-guide-app/assets/142092/fa0e4d1d-8e81-4d6e-8973-dc4c5a2c807c)
 
