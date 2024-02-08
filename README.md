@@ -16,7 +16,7 @@ To visit a place, using the app, scan the QR code below:
 It points to https://www.ear.guide/reader?url=https://raw.githubusercontent.com/tamberg/guide/main/README.md (3rd party [content](https://raw.githubusercontent.com/tamberg/guide/main/README.md)).
 
 ## Add a guide
-To add a guide, on your website _example.com_ (or on Github), publish a file _museum.md_ with the following structure:
+To add a guide, on your website _example.com_ (or in a [Github](https://github.com/) repo), publish a file _museum.md_ with the following structure:
 
 ```md
 # Museum
