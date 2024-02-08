@@ -42,5 +42,6 @@ $ npm start
 To host the PWA on your domain, deploy to a publicly accessible, static Web server:
 ```console
 $ npm run build
+$ cp dist/ear-guide/index.html dist/ear-guide/404.html
 $ cp -r dist/ear-guide/* ../www
 ```
