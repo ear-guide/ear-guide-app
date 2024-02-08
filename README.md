@@ -13,7 +13,7 @@ TO visit a museum, using the app, scan the QR code below.
 
 ![ear guide 3rdparty](https://github.com/ear-guide/ear-guide-app/assets/142092/c22d99ac-ca2d-4cc5-b8bb-ce378abcc2e3)
 
-It points to https://www.ear.guide/reader?url=https://raw.githubusercontent.com/tamberg/guide/main/README.md (3rd party example [content](https://raw.githubusercontent.com/tamberg/guide/main/README.md)).
+It points to https://www.ear.guide/reader?url=https://raw.githubusercontent.com/tamberg/guide/main/README.md (3rd party [content](https://raw.githubusercontent.com/tamberg/guide/main/README.md)).
 
 ## Add a museum
 To add a guide, on your website _example.com_ (or on Github), publish a file _museum.md_ with the following structure:
