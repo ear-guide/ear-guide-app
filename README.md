@@ -2,6 +2,8 @@
 A simple audio guide.
 
 ## Try
+To try the app, visit any of these links.
+
 - https://www.ear.guide/ (generic [PWA](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps))
 - https://www.ear.guide/reader?url=https://www.ear.guide/assets/example.md (example [content](https://www.ear.guide/assets/example.md))
 - https://www.ear.guide/reader?url=https://raw.githubusercontent.com/tamberg/guide/main/README.md (3rd party example [content](https://raw.githubusercontent.com/tamberg/guide/main/README.md))
