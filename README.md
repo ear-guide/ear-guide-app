@@ -7,7 +7,7 @@ A simple audio guide.
 - https://www.ear.guide/reader?url=https://raw.githubusercontent.com/tamberg/guide/main/README.md (3rd party example [content](https://raw.githubusercontent.com/tamberg/guide/main/README.md))
 
 ## Add
-To add a guide, on your website _example.com_, publish a file _museum.md_ with the following structure:
+To add a guide, on your website _example.com_ (or on Github), publish a file _museum.md_ with the following structure:
 
 ```md
 # Museum
