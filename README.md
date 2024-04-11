@@ -1,5 +1,5 @@
 # Ear Guide App
-A simple audio guide.
+A simple audio guide. Questions? Contact thomas.amberg@fhnw.ch
 
 ## Get the PWA
 To get the app, type _ear.guide_ in your browser, or scan the QR code below:
